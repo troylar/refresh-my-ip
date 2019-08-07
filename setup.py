@@ -5,11 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="refresh-my-ip",
-    version="0.0.2",
+    version="0.0.3",
     author="Troy Larson",
     author_email="troylar+github@pm.me",
-    description="Refresh your \"my IP\" in AWS security groups",
-    long_description=long_description,
+    description="Refresh your ''my IP' in AWS security groups",
     url="https://github.com/troylar/refresh-my-ip",
     entry_points = {
         'console_scripts': ['refresh-my-ip=src.main:main'],
