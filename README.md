@@ -17,7 +17,6 @@ Using the `Description` field, `refresh-my-ip` will scan through all of your sec
 ## Optional Feature
 If you don't want to use `MyIp` in the description, you can pass `--match-description` along with the text you want to match.
 
+For example, if you want to match against `My Current Ip Address`, you would run:
 
-
-
-
+    `refresh-my-ip --match-description "My Current IP Address"`
