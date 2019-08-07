@@ -19,4 +19,4 @@ If you don't want to use `MyIp` in the description, you can pass `--match-descri
 
 For example, if you want to match against `My Current Ip Address`, you would run:
 
-    `refresh-my-ip --match-description "My Current IP Address"`
+`refresh-my-ip --match-description "My Current IP Address"`
