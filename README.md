@@ -1,11 +1,11 @@
 # refresh-my-ip
 
-##Quick Overview
+## Quick Overview
 If you have EC2 instances locked down by IP address, it can be time annoying/frustrating/time-consuming if your IP address changes, or if you work in different locations.
 
 Using the `Description` field, `refresh-my-ip` will scan through all of your security groups looking for `MyIp` and replace the IP address with your current public IP address.
 
-##Quick Start
+## Quick Start
 1. Install the app:
 
     `pip install refresh-my-ip`
