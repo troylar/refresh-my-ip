@@ -5,9 +5,9 @@ from botocore.exceptions import ClientError
 import urllib.request
 
 @click.command()
-@click.option("--match-description", default='MyIp', help="Ingress rule description to match against")
+@click.option("--match-description", default='MyIP', help="Ingress rule description to match against")
 def main(match_description):
-    my_ip = urllib.request.urlopen('https://ident.me').read().decode('utf8')
+    my_ip = urllib.request.urlopen('https://checkip.amazonaws.com').read().decode('utf8').rstrip()
     ec2 = boto3.client('ec2')
 
     try:
