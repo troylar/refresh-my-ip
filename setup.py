@@ -29,7 +29,7 @@ setuptools.setup(
         'python-dateutil==2.8.0',
         's3transfer==0.2.1',
         'six==1.12.0',
-        'urllib3==1.25.3',
+        'urllib3==1.25.8',
     ],
     packages=find_packages(),
     classifiers=[
